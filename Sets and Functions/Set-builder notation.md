@@ -29,6 +29,37 @@ Below are **incorrect** ways to use set-builder notation:
 - (*Putting a predicate first, then a domain*) Set builder notation with a predicate first does not make mathematical sense. For example: $\{x < 2 \, : \, x \in \mathbb{Z}\}$ is incorrect. 
 - (*Putting a set first, then a formula*) Set builder notation with a formula *second* also does not make mathematical sense. For example, $\{x \in \mathbb{Z} \, : \, x+2\}$ is incorrect. 
 
+The following flowchart can be used to determine whether the set builder notation is correct and how to convert it to roster notation. (Use the navigation tools to zoom in/out and pan around the flowchart.)
+
+```mermaid
+flowchart LR
+
+%% nodes
+    A("Look at the expression in the notation") 
+    B("Is it a predicate or a formula?")
+    C1("Does it come first or second?")
+    C2("Does it come first or second?")
+    D("Incorrect syntax")
+    E("Filter the set using the predicate")
+    F("Apply formula to each element")
+    G("Does the expression evaluate to True/False?")
+    H("It's a predicate")
+    I("It's a formula")
+
+%% edge connections
+    A --> B
+    B -->|Predicate| C1
+    B -->|Formula| C2
+    C1 -->|First| D
+    C1 -->|Second| E
+    C2 -->|First| F
+    C2 -->|Second| D
+    B -->|I don't know| G
+    G -->|Yes| H
+    G -->|No| I
+    H --> B
+    I --> B
+```
 ## Resources 
 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/602744516?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Screencast 3.2: Roster and set-builder notation"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
