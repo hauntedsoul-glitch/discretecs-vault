@@ -33,7 +33,14 @@ $$\sum_{i=m}^{n} a_i$$
 
 The sum $\sum_{i=m}^{n} a_i$ is equivalent to the following Python loop: 
 
-
+```python
+total = 0
+for i in range(m, n + 1):
+    total += a(i)
+```
+Or, without a loop: 
+```pytho
+```
 
 ### Non-Examples
 
