@@ -1,6 +1,13 @@
 ---
-aliases: [set-builder notation, set builder notation]
---- 
+tags:
+  - sets-functions
+updated: 2025-04-14
+aliases:
+  - set-builder notation
+  - set builder notation
+---
+---
+
 
 #sets-functions 
 
