@@ -1,3 +1,10 @@
+---
+aliases:
+  - summation
+  - summation notation
+  - sigma notation
+tags:
+---
 
 aliases: [Summation Notation, Summation] tags: [math/discrete, notation, sequences] created: 2026-01-26 updated: 2026-01-26
 
@@ -12,29 +19,22 @@ A typical expression looks like this:
 $$\sum_{i=m}^{n} a_i$$
 
 - **$i$**: The **index of summation** (a variable that changes).
-    
 - **$m$**: The **lower limit** (the starting integer).
-    
 - **$n$**: The **upper limit** (the stopping integer).
-    
 - **$a_i$**: The **general term** or formula applied to each index value.
-    
 
 ## Examples and Non-Examples
 
 ### Examples
 
 - **Arithmetic Sum**: $\sum_{i=1}^{4} i = 1 + 2 + 3 + 4 = 10$
-    
 - **Squares**: $\sum_{k=0}^{3} k^2 = 0^2 + 1^2 + 2^2 + 3^2 = 14$
-    
 - **Constant**: $\sum_{i=1}^{5} 10 = 10 + 10 + 10 + 10 + 10 = 50$
     
 
 ### Non-Examples
 
 - **$a_1 + a_2 + a_3 + \dots$**: This is an infinite series. While it can be written as $\sum_{i=1}^{\infty} a_i$, a simple list of terms without the $\Sigma$ operator is just the expansion, not the notation itself.
-    
 - **$\prod_{i=1}^{n} a_i$**: This is **Pi notation**, which represents the _product_ (multiplication) of terms, not the sum.
     
 
@@ -45,9 +45,7 @@ $$\sum_{i=m}^{n} a_i$$
 Other resources:
 
 - [Khan Academy: Sigma Notation Basis](https://www.google.com/search?q=https://www.khanacademy.org/math/algebra2/x2ec2f6f830c9fb89:sequences/x2ec2f6f830c9fb89:sig-not/v/sigma-notation-basic)
-    
 - [Wolfram MathWorld: Summation](https://mathworld.wolfram.com/Summation.html)
-    
 
 ## Practice
 
