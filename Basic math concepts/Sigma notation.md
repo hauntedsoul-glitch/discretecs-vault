@@ -4,10 +4,10 @@ aliases:
   - summation notation
   - sigma notation
 tags:
+  - basic-concepts
+created: 2026-01-26
+updated: 2026-01-26
 ---
-
-aliases: [Summation Notation, Summation] tags: [math/discrete, notation, sequences] created: 2026-01-26 updated: 2026-01-26
-
 ## Definition
 
 > [!tldr] Definition
@@ -30,7 +30,10 @@ $$\sum_{i=m}^{n} a_i$$
 - **Arithmetic Sum**: $\sum_{i=1}^{4} i = 1 + 2 + 3 + 4 = 10$
 - **Squares**: $\sum_{k=0}^{3} k^2 = 0^2 + 1^2 + 2^2 + 3^2 = 14$
 - **Constant**: $\sum_{i=1}^{5} 10 = 10 + 10 + 10 + 10 + 10 = 50$
-    
+
+The sum $\sum_{i=m}^{n} a_i$ is equivalent to the following Python loop: 
+
+
 
 ### Non-Examples
 
