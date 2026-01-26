@@ -39,7 +39,9 @@ for i in range(m, n + 1):
     total += a(i)
 ```
 Or, without a loop: 
-```pytho
+```python
+# Equivalent to \sum_{i=m}^{n} a_i
+result = sum(a(i) for i in range(m, n + 1))
 ```
 
 ### Non-Examples
@@ -49,10 +51,6 @@ Or, without a loop:
     
 
 ## Resources
-
-<iframe width="560" height="315" src="https://www.google.com/search?q=https://www.youtube.com/embed/S9enR8Zp780" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-Other resources:
 
 - [Khan Academy: Sigma Notation Basis](https://www.google.com/search?q=https://www.khanacademy.org/math/algebra2/x2ec2f6f830c9fb89:sequences/x2ec2f6f830c9fb89:sig-not/v/sigma-notation-basic)
 - [Wolfram MathWorld: Summation](https://mathworld.wolfram.com/Summation.html)
